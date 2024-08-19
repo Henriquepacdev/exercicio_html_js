@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(232, 200, 233);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+.container h4 h2 {
+    margin: 16px auto;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+h1, h2 {
+    margin-bottom: 8px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+    background-color: #ffffff;
+}
+
+button {
+    background-color: rgb(136, 128, 138);
+    text-transform: uppercase;
+    color: #ffffff;
+    border-color: rgb(92, 49, 100);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(151, 129, 173);
+}
+
+#message.valido {
+    color:green;
+}
+
+#message.invalido {
+    color:red;
+}
